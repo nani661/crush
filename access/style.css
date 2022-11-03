@@ -1,0 +1,90 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #333;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1rem;
+}
+.total {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total-nav {
+  width: 70rem;
+  height: 40rem;
+  background: url(images/i3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  border-radius: 1rem;
+}
+.content {
+  position: absolute;
+  width: 70rem;
+  height: 40rem;
+  border-radius: 1rem;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60%;
+  background: rgba(51, 51, 51, 0.5);
+  border-radius: 1rem;
+}
+.big-avata {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  width: 20rem;
+  height: 20rem;
+  background: url(images/i3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 0.8rem 0.05rem rgba(255, 255, 255, 0.5);
+}
+.bottom-avata {
+  margin: 5rem 0 0 2rem;
+  width: 10rem;
+  height: 10rem;
+  background: url(images/i3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: #fff solid 0.2rem;
+}
+.time {
+  font-size: 2rem;
+  color: #fff;
+}
+.content-text {
+  margin-left: 14rem;
+  transform: translateY(-6.5rem);
+  font-size: 3rem;
+  color: #fff;
+}
+@media only screen and (max-width: 740px) {
+  html {
+    font-size: 30%;
+  }
+}
